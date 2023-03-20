@@ -1,0 +1,9 @@
+[
+    { "img": "../images/llave.png" ,"id": 1, "nombre": "Cambio Aceite", "precio": 5000, "kilometros": 2500 },
+    { "img": "../images/llave.png" ,"id": 2, "nombre": "Cambio Aceite y filtros", "precio": 8000, "kilometros": 5000 },
+    { "img": "./images/llave.png" ,"id": 3, "nombre": "Service Completo", "precio": 10000, "kilometros": 5000 },
+    { "img": "../images/llave.png" ,"id": 4, "nombre": "revision", "precio": 5000, "kilometros": 0 },
+    { "img": "../images/llave.png" ,"id": 5, "nombre": "revision chasis", "precio": 2000, "kilometros": 0 },
+    { "img": "../images/llave.png" , "id": 6, "nombre": "Cambio frenos", "precio": 3000, "kilometros": 5000 },
+    { "img": "../images/llave.png" ,"id": 7, "nombre": "Cambio transmisión", "precio": 15000, "kilometros": 10000 }
+]
