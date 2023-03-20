@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taller  JJSM-Motorsport</title>
+    <title>Taller JJSM-Motorsport</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,20 +13,26 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="logo">
         <h1><span>JJSM</span>-Motorsport</h1>
         <img src="./images/logo.png" alt="logo">
+        <div class="carrito" id="verCarrito">
+            <img src="./images/carrito.png" alt="carrito" id="carrito">
+        </div>
     </div>
     <div class="container">
         <ul id="listadoServicios"></ul>
-    </div>    
-          <footer>
-          <p>&#169 Nanni 2023</p>
-          <p>Peiping 5100</p>
-      </footer>
+    </div>
+    <div id="modalContainer" class="modalContainer"></div>
+    <footer>
+        <p>&#169 Nanni 2023</p>
+        <p>Peiping 5100</p>
+    </footer>
 
-      <script src="./productos.json"></script>
-      <script src="./main.js"></script>
+    <script src="./productos.json"></script>
+    <script src="./main.js"></script>
 </body>
+
 </html>

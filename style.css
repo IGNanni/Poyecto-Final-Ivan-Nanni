@@ -54,10 +54,11 @@ footer p {
 
 ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     width: 100%;
 }
+
 
 .card {
     border-radius: 20;
@@ -72,6 +73,16 @@ ul {
     justify-content: center;
 }
 
+.card button{
+    background-color: black;
+    color: whitesmoke;
+    border-color: black;
+    border-style: none;
+    cursor: pointer;
+}
+.card button:hover{
+    color:#e00202;
+}
 .card h3 {
     height: 40%;
 }
@@ -90,4 +101,73 @@ ul {
     font-weight: 800;
     text-shadow: 2px 2px #e00202;
     text-align: center;
+}
+
+.carrito {
+    filter: invert(100%);
+    height: 70px;
+    width: 70px;
+    justify-self: flex-end;
+    cursor: pointer;
+}
+#carrito {
+    height: 100%;
+    width: auto;
+}
+
+.modalContainer {
+    width: 80%;
+    margin: 0 , 10%;
+    max-height: 85vh;
+    color: whitesmoke;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 5;
+    top: 15vh;
+    scrollbar-color: none;
+}
+.modalContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+}
+
+.tituloCarrito {
+justify-self: start;
+}
+
+.modalBotonCierre {
+    cursor: pointer;
+}
+
+.modalContainer > .carritoContenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 15px;
+}
+
+.modalContainer > div > img {
+    height: 50px;
+    width: 50px;
+    filter: invert(100%);
+}
+
+.totalPrecio {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
 }
