@@ -151,3 +151,5 @@ localStorage.setItem("carrito", JSON.stringify(carrito));
 carritoContador();
 
 Swal.fire('Bienvenid@a nuestro taller!\nAlgunos sectores de la página aún se encuentran en construcción.');
+
+//-----
